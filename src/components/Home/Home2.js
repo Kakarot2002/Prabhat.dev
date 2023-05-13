@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
+
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
@@ -19,19 +20,26 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
+            I am fluent in classics like
+            <i>
+            <b className="purple"> C++, Javascript and Python. </b>
+            </i>
+              <br />
+              <br />
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />
+              I'm passionate about building high-quality software that is {" "}
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple">reliable, scalable, and easy to maintain. </b> and I enjoy staying up to date with the latest technologies and techniques, and I'm always looking for ways to improve my craft.{" "}
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                also in areas related to machine learing like{" "}
                 <b className="purple">
                   Deep Learning and Natural Launguage Processing.
                 </b>
